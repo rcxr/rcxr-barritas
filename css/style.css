@@ -11,8 +11,8 @@ body {
 .label-title {
   width: 100%;
   height: 0.3in;
-  font-size: 0.2in;
-  line-height: 1.5;
+  font-size: 0.3in;
+  line-height: 1;
   font-weight: 900;
 }
 
@@ -24,8 +24,8 @@ body {
 .label-product {
   width: 100%;
   height: 0.3in;
-  font-size: 0.2in;
-  line-height: 1.5;
+  font-size: 0.3in;
+  line-height: 1;
   font-weight: 900;
 }
 
@@ -33,7 +33,7 @@ body {
   width: 100%;
   height: 0.6in;
   overflow: hidden;
-  font-size: 0.1in;
+  font-size: 0.2in;
   line-height: 1.5;
   font-style: italic;
 }
