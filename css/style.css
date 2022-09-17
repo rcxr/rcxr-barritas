@@ -3,42 +3,42 @@ body {
 }
 
 .label-card {
-  width: 2in;
-  height: 4in;
-  padding: 0.1in;
+  width: 192px;
+  height: 384px;
+  padding: 6px;
 }
 
 .label-title {
-  width: 100%;
-  height: 0.3in;
-  font-size: 0.3in;
+  width: 180px;
+  height: 32px;
+  font-size: 32px;
   line-height: 1;
   font-weight: 900;
 }
 
 .label-artwork {
-  width: 100%;
-  height: 1.8in;
+  width: 180px;
+  height: 180px;
 }
 
 .label-product {
-  width: 100%;
-  height: 0.3in;
-  font-size: 0.3in;
+  width: 180px;
+  height: 32px;
+  font-size: 32px;
   line-height: 1;
   font-weight: 900;
 }
 
 .label-metadata {
-  width: 100%;
-  height: 0.6in;
+  width: 180px;
+  height: 64px;
   overflow: hidden;
-  font-size: 0.2in;
-  line-height: 1.5;
+  font-size: 24px;
+  line-height: 1.25;
   font-style: italic;
 }
 
 .label-barcode {
-  width: 100%;
-  height: 0.8in;
+  width: 180px;
+  height: 64px;
 }
