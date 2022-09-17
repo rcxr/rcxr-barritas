@@ -25,6 +25,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- rcxr-barritas -->
     <script src="lib/index.js"></script>
+    <script src="lib/factory.js"></script>
     <script src="lib/article.js"></script>
     <script src="lib/label.js"></script>
   </head>
@@ -32,13 +33,13 @@
     <form class="screen-only">
       <div class="form-row justify-content-center m-3">
         <div class="custom-file col-8 m-1">
-          <input id="itemsFile" type="file" class="custom-file-input" required>
-          <label for="itemsFile" class="custom-file-label">Choose file...</label>
+          <input id="file" type="file" class="custom-file-input" required>
+          <label for="file" class="custom-file-label">Choose file...</label>
         </div>
         <button id="run" type="button" class="btn btn-primary col-auto m-1">generate</button>
       </div>
     </form>
-    <div id="labels">
+    <div id="labels" class="d-flex flex-wrap">
     </div>
   </body>
 </html>
