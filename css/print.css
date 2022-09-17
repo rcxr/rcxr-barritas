@@ -1,4 +1,8 @@
 @page {
-  size: letter portrait;
-  margin: 0.5in 0.156in;
+  size: letter landscape;
+  margin: 0.16in 0.5in;
+}
+
+.screen-only {
+  display: none;
 }

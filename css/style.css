@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.label-card {
+  width: 2in;
+  height: 4in;
+  padding: 0.1in;
+}
+
+.label-title {
+  width: 100%;
+  height: 0.3in;
+  font-size: 0.2in;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.label-artwork {
+  width: 100%;
+  height: 1.8in;
+}
+
+.label-product {
+  width: 100%;
+  height: 0.3in;
+  font-size: 0.2in;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.label-metadata {
+  width: 100%;
+  height: 0.6in;
+  overflow: hidden;
+  font-size: 0.1in;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.label-barcode {
+  width: 100%;
+  height: 0.8in;
+}
