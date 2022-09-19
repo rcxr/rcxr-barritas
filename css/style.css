@@ -1,11 +1,18 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0 48px;
+}
+
+.blank {
+  width: 960px;
+  height: 16px;
 }
 
 .label-card {
   width: 192px;
   height: 384px;
   padding: 6px;
+  margin-bottom: 16px;
 }
 
 .label-title {
