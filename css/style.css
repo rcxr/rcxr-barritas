@@ -4,8 +4,7 @@ body {
 }
 
 .blank {
-  width: 960px;
-  height: 16px;
+  display: none;
 }
 
 .label-card {
@@ -43,9 +42,4 @@ body {
   font-size: 24px;
   line-height: 1.25;
   font-style: italic;
-}
-
-.label-barcode {
-  width: 180px;
-  height: 64px;
 }

@@ -5,3 +5,9 @@
 .screen-only {
   display: none;
 }
+
+.blank {
+  display: block;
+  width: 960px;
+  height: 16px;
+}
