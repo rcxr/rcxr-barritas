@@ -43,7 +43,7 @@ body {
 }
 
 .label-price {
-  width: 180px;
+  min-width: 124px;
   height: 56px;
   overflow: hidden;
   font-size: 56px;
