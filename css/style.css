@@ -27,9 +27,7 @@ body {
 .label-artwork {
   width: 180px;
   height: 180px;
-  background-size: 180px;
   margin-bottom: 8px;
-  image-resolution: 36dpi;
 }
 
 .label-title {
