@@ -28,27 +28,22 @@
     <script src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.0/dist/browser-image-compression.js"></script>
     <script src="lib/PapaParse/papaparse.min.js"></script>
     <!-- rcxr-barritas -->
-    <script src="lib/index.js"></script>
-    <script src="lib/factory.js"></script>
     <script src="lib/article.js"></script>
     <script src="lib/label.js"></script>
+    <script src="lib/factory.js"></script>
+    <script src="lib/index.js"></script>
   </head>
   <body>
     <form class="screen-only">
-      <div class="form-row justify-content-center m-3">
-        <div class="custom-file col-5 m-1">
-          <input id="file" type="file" class="custom-file-input" required>
-          <label for="file" class="custom-file-label">Elegir csv...</label>
-        </div>
+      <div class="form-row custom-file m-3">
+        <input id="file" type="file" class="custom-file-input" accept=".csv">
+        <label id="file-label" for="file" class="custom-file-label"></label>
       </div>
-      <div class="form-row justify-content-center m-3">
-        <div class="custom-file col-5 m-1">
-          <input id="images" type="file" class="custom-file-input">
-          <label for="images" class="custom-file-label">Elegir imágenes...</label>
-        </div>
+      <div id="images-container" class="form-row custom-file m-3">
+        <input id="images" type="file" class="custom-file-input" accept="image/*" multiple>
+        <label for="images" class="custom-file-label">Imágenes...</label>
       </div>
-      <div class="form-row justify-content-center m-3">
-        <button id="run" type="button" class="btn btn-primary col-auto m-1">¡FUAA!</button>
+      <div id="missing-filenames" class="form-row m-3">
       </div>
     </form>
     <div id="labels" class="d-flex flex-wrap">
