@@ -6,8 +6,9 @@
   display: none;
 }
 
-.blank {
-  display: block;
-  width: 960px;
-  height: 16px;
+.sheet {
+  margin: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
