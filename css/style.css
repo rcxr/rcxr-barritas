@@ -33,19 +33,15 @@ body {
 }
 
 .new-label-title {
-  width: 180px;
-  padding: 4px;
-  border-radius: 0 0 8px 8px;
+  width: 100px;
+  margin-right: 4px;
   font-size: 16px;
   line-height: 1;
   font-weight: 900;
-  text-transform: uppercase;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  background-color: black;
-  color: white;
 }
 
 .new-label-image-container {
@@ -60,11 +56,6 @@ body {
   height: 172px;
   border-radius: 0 0 8px 8px;
   background-position: center;
-}
-
-.new-label-barcode {
-  width: 180px;
-  height: 48px;
 }
 
 .new-label-details-container {
@@ -105,4 +96,17 @@ body {
   padding: 4px;
   border-radius: 0 0 8px 0;
   background-color: black;
+}
+
+.new-label-about-container {
+  width: 180px;
+  padding: 4px;
+  border-radius: 0 0 8px 8px;
+  background-color: black;
+  color: white;
+}
+
+.new-label-barcode-container {
+  width: 180px;
+  height: 60px;
 }
