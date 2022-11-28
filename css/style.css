@@ -13,14 +13,14 @@ body {
   box-shadow: 0px 0px 24px 12px gray;
 }
 
-.new-label-container {
+.label-container {
   width: 192px;
   height: 384px;
   padding: 6px;
   margin-bottom: 16px;
 }
 
-.new-label-product {
+.label-product {
   width: 180px;
   padding: 4px;
   border-radius: 8px 8px 0 0;
@@ -32,7 +32,7 @@ body {
   color: white;
 }
 
-.new-label-title {
+.label-title {
   width: 100px;
   margin-right: 4px;
   font-size: 16px;
@@ -44,21 +44,21 @@ body {
   -webkit-box-orient: vertical;
 }
 
-.new-label-image-container {
+.label-image-container {
   width: 180px;
   height: 172px;
   padding: 0 4px;
   background-color: black;
 }
 
-.new-label-image {
+.label-image {
   width: 172px;
   height: 172px;
   border-radius: 0 0 8px 8px;
   background-position: center;
 }
 
-.new-label-details-container {
+.label-details-container {
   width: 180px;
   padding: 0 4px;
   font-size: 24px;
@@ -68,11 +68,11 @@ body {
   background-color: black;
 }
 
-.new-label-details-color {
+.label-details-color {
   border-radius: 8px;
 }
 
-.new-label-details-tab {
+.label-details-tab {
   width: 80px;
   padding: 4px;
   border-radius: 8px 8px 0 0;
@@ -80,25 +80,25 @@ body {
   color: black;
 }
 
-.new-label-details-gap-container {
+.label-details-gap-container {
   background-color: white;
 }
 
-.new-label-details-gap-begin {
+.label-details-gap-begin {
   width: 8px;
   padding: 4px;
   border-radius: 0 0 0 8px;
   background-color: black;
 }
 
-.new-label-details-gap-end {
+.label-details-gap-end {
   width: 8px;
   padding: 4px;
   border-radius: 0 0 8px 0;
   background-color: black;
 }
 
-.new-label-about-container {
+.label-about-container {
   width: 180px;
   padding: 4px;
   border-radius: 0 0 8px 8px;
@@ -106,7 +106,7 @@ body {
   color: white;
 }
 
-.new-label-barcode-container {
+.label-barcode-container {
   width: 180px;
   height: 60px;
 }
